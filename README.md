@@ -24,7 +24,13 @@ Salin file konfigurasi .env.example menjadi .env dan isi detail yang diperlukan 
 ```bash
 APP_URL=http://siswa.test
 
+# menggunakan sqlite
 DB_CONNECTION=sqlite
+# DB_HOST=127.0.0.1
+# DB_PORT=3306
+# DB_DATABASE=laravel
+# DB_USERNAME=root
+# DB_PASSWORD=
 
 # atau jika menggunakan MySQL
 DB_CONNECTION=mysql
